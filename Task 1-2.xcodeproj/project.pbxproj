@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		64D124512934A7F70087A3C5 /* Task_1_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124502934A7F70087A3C5 /* Task_1_2App.swift */; };
-		64D124532934A7F70087A3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124522934A7F70087A3C5 /* ContentView.swift */; };
 		64D124552934A7F80087A3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D124542934A7F80087A3C5 /* Assets.xcassets */; };
 		64D124582934A7F80087A3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D124572934A7F80087A3C5 /* Preview Assets.xcassets */; };
+		64D124602934A8320087A3C5 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1245F2934A8320087A3C5 /* SignInScreen.swift */; };
+		64D124622934A83B0087A3C5 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124612934A83B0087A3C5 /* SignUpScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64D1244D2934A7F70087A3C5 /* Task 1-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task 1-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D124502934A7F70087A3C5 /* Task_1_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_1_2App.swift; sourceTree = "<group>"; };
-		64D124522934A7F70087A3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64D124542934A7F80087A3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D124572934A7F80087A3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64D1245F2934A8320087A3C5 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
+		64D124612934A83B0087A3C5 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		64D1244F2934A7F70087A3C5 /* Task 1-2 */ = {
 			isa = PBXGroup;
 			children = (
+				64D1245E2934A8230087A3C5 /* screens */,
 				64D124502934A7F70087A3C5 /* Task_1_2App.swift */,
-				64D124522934A7F70087A3C5 /* ContentView.swift */,
 				64D124542934A7F80087A3C5 /* Assets.xcassets */,
 				64D124562934A7F80087A3C5 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				64D124572934A7F80087A3C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64D1245E2934A8230087A3C5 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				64D1245F2934A8320087A3C5 /* SignInScreen.swift */,
+				64D124612934A83B0087A3C5 /* SignUpScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D124532934A7F70087A3C5 /* ContentView.swift in Sources */,
 				64D124512934A7F70087A3C5 /* Task_1_2App.swift in Sources */,
+				64D124602934A8320087A3C5 /* SignInScreen.swift in Sources */,
+				64D124622934A83B0087A3C5 /* SignUpScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

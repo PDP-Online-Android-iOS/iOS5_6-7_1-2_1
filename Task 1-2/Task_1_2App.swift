@@ -11,7 +11,7 @@ import SwiftUI
 struct Task_1_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInScreen()
         }
     }
 }
