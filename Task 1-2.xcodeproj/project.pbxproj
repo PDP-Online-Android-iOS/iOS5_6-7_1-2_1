@@ -12,6 +12,8 @@
 		64D124582934A7F80087A3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D124572934A7F80087A3C5 /* Preview Assets.xcassets */; };
 		64D124602934A8320087A3C5 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1245F2934A8320087A3C5 /* SignInScreen.swift */; };
 		64D124622934A83B0087A3C5 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124612934A83B0087A3C5 /* SignUpScreen.swift */; };
+		64D124832934D6720087A3C5 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124822934D6720087A3C5 /* HomeScreen.swift */; };
+		64D124852934D7740087A3C5 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D124842934D7740087A3C5 /* StarterScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		64D124572934A7F80087A3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64D1245F2934A8320087A3C5 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
 		64D124612934A83B0087A3C5 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		64D124822934D6720087A3C5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		64D124842934D7740087A3C5 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			children = (
 				64D1245F2934A8320087A3C5 /* SignInScreen.swift */,
 				64D124612934A83B0087A3C5 /* SignUpScreen.swift */,
+				64D124822934D6720087A3C5 /* HomeScreen.swift */,
+				64D124842934D7740087A3C5 /* StarterScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D124832934D6720087A3C5 /* HomeScreen.swift in Sources */,
 				64D124512934A7F70087A3C5 /* Task_1_2App.swift in Sources */,
 				64D124602934A8320087A3C5 /* SignInScreen.swift in Sources */,
 				64D124622934A83B0087A3C5 /* SignUpScreen.swift in Sources */,
+				64D124852934D7740087A3C5 /* StarterScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
